@@ -1,5 +1,5 @@
 
-# JavaScript for Absolute Beginners By Eyobed Sebrala
+# JavaScript for Absolute Beginners
 
 Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the outline below to navigate.
 
@@ -210,3 +210,102 @@ console.log(colors.indexOf("green")); // 1
 ---
 
 Thanks for reading! You can now write and debug JavaScript like a pro beginner! 🎉
+
+
+---
+
+## 13. Boolean Data Type
+
+- Booleans represent **true** or **false** values.
+
+```javascript
+let isOnline = true;
+let hasAccess = false;
+
+console.log(typeof isOnline); // boolean
+console.log(5 > 3); // true
+console.log(10 === "10"); // false (different types)
+```
+
+---
+
+## 14. Control Flow (Loops)
+
+- Control flow means the order in which the code runs.
+- Loops let you repeat tasks.
+
+### `for` Loop
+
+```javascript
+// Print numbers 1 to 5
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+```
+
+### `while` Loop
+
+```javascript
+let count = 1;
+while (count <= 5) {
+  console.log(count);
+  count++;
+}
+```
+
+### `do...while` Loop
+
+```javascript
+let num = 1;
+do {
+  console.log(num);
+  num++;
+} while (num <= 5);
+```
+
+- `do...while` runs **at least once**, even if the condition is false.
+
+---
+
+## 15. Conditional Statements (`if`, `else`, `else if`)
+
+- They let you run code only when certain conditions are met.
+
+```javascript
+let score = 85;
+
+if (score >= 90) {
+  console.log("Excellent!");
+} else if (score >= 75) {
+  console.log("Very Good!");
+} else {
+  console.log("Keep trying!");
+}
+```
+
+---
+
+## 16. Logical Operators
+
+- Used to combine conditions.
+
+| Operator | Description       | Example                  | Result         |
+|----------|-------------------|--------------------------|----------------|
+| `&&`     | AND (both true)   | `true && false`          | false          |
+| `||`     | OR (at least one) | `true || false`          | true           |
+| `!`      | NOT (opposite)    | `!true`                  | false          |
+
+```javascript
+let age = 20;
+let hasTicket = true;
+
+if (age >= 18 && hasTicket) {
+  console.log("You can enter.");
+}
+
+if (age < 18 || !hasTicket) {
+  console.log("Entry denied.");
+}
+```
+
+---
