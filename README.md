@@ -23,7 +23,7 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 14. [Control Flow (Loops)](#14-control-flow-loops)  
 15. [Conditional Statements](#15-conditional-statements-if-else-else-if)  
 16. [Logical Operators](#16-logical-operators)
-17. 17. [Practice Exercise: Student Grading System](#17-practice-exercise-student-grading-system)
+17. [Practice Exercise: Student Grading System](#17-practice-exercise-student-grading-system)
 
 
 
