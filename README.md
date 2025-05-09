@@ -7,22 +7,23 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 
 ## 🧭 Outline
 
-1. [Console and `console.log()`](#1-console-and-consolelog)
-2. [Variables](#2-variables)
-3. [Data Types: Number](#3-data-types-number)
-4. [Data Types: String](#4-data-types-string)
-5. [Math Operators](#5-math-operators)
-6. [Operator Precedence (BIDMAS)](#6-operator-precedence-bidmas)
-7. [Shorthand Operators](#7-shorthand-operators)
-8. [NaN](#8-nan)
-9. [String Interpolation (Backticks)](#9-string-interpolation-backticks)
-10. [Undefined](#10-undefined)
-11. [Null](#11-null)
-12. [Arrays](#12-arrays)
-13. [Boolean](#  boolean)
-14. [Control Flow (Loops)](# Control flow)
-
----
+1. [Console and `console.log()`](#1-console-and-consolelog)  
+2. [Variables](#2-variables)  
+3. [Data Types: Number](#3-data-types-number)  
+4. [Data Types: String](#4-data-types-string)  
+5. [Math Operators](#5-math-operators)  
+6. [Operator Precedence (BIDMAS)](#6-operator-precedence-bidmas)  
+7. [Shorthand Operators](#7-shorthand-operators)  
+8. [NaN](#8-nan)  
+9. [String Interpolation (Backticks)](#9-string-interpolation-backticks)  
+10. [Undefined](#10-undefined)  
+11. [Null](#11-null)  
+12. [Arrays](#12-arrays)  
+13. [Boolean Data Type](#13-boolean-data-type)  
+14. [Control Flow (Loops)](#14-control-flow-loops)  
+15. [Conditional Statements](#15-conditional-statements-if-else-else-if)  
+16. [Logical Operators](#16-logical-operators)
+--
 
 ## 1. Console and `console.log()`
 
