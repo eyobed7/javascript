@@ -23,10 +23,11 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 14. [Control Flow (Loops)](#14-control-flow-loops)  
 15. [Conditional Statements](#15-conditional-statements-if-else-else-if)  
 16. [Logical Operators](#16-logical-operators)
+17. 17. [Practice Exercise: Student Grading System](#17-practice-exercise-student-grading-system)
+
 
 
 ---
-
 ## 1. Console and `console.log()`
 
 - The **console** is a tool to test and debug JavaScript.
@@ -314,3 +315,22 @@ if (age < 18 || !hasTicket) {
 ```
 
 ---
+
+
+---
+
+## 17. Practice Exercise: Student Grading System
+
+Let’s put together everything we've learned to build a mini student grading system.
+
+### 📝 Problem:
+
+You are a teacher who needs to process student scores and return feedback based on the score, attendance, and behavior.
+
+### ✅ Features:
+
+- Store student information (name, score, attendance, and behavior).
+- Use conditions to determine the final message.
+- Use loops to process multiple students.
+- Apply string and math methods.
+- Use arrays to store student records.
