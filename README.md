@@ -1,5 +1,5 @@
 
-# JavaScript for Absolute Beginners
+# JavaScript for Absolute Beginners By Eyobed 
 
 Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the outline below to navigate.
 
@@ -23,7 +23,9 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 14. [Control Flow (Loops)](#14-control-flow-loops)  
 15. [Conditional Statements](#15-conditional-statements-if-else-else-if)  
 16. [Logical Operators](#16-logical-operators)
---
+
+
+---
 
 ## 1. Console and `console.log()`
 
