@@ -1,5 +1,5 @@
 
-# JavaScript for Absolute Beginners By Eyobed
+# JavaScript for Absolute Beginners
 
 Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the outline below to navigate.
 
@@ -19,6 +19,8 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 10. [Undefined](#10-undefined)
 11. [Null](#11-null)
 12. [Arrays](#12-arrays)
+13. [Boolean](#  boolean)
+14. [Control Flow (Loops)](# Control flow)
 
 ---
 
