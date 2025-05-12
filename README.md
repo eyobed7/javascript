@@ -25,6 +25,7 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 16. [Logical Operators](#16-logical-operators)
 17. [Practice Exercise: Student Grading System](#17-practice-exercise-student-grading-system)
 18. [Break and Continue (in for loop with if clause)](#18-break-and-continue-in-for-loop-with-if-clause)
+19. [Switch Statement](#19-switch-statement)
 
 
 
@@ -340,6 +341,7 @@ You are a teacher who needs to process student scores and return feedback based 
 
 ---
 
+
 ## 18. Break and Continue (in for loop with if clause)
 
 ### 🔄 What are `break` and `continue`?
@@ -376,4 +378,49 @@ for (let i = 1; i <= 10; i++) {
 // 4
 // 6
 // 7
+```
+
+## 19. Switch Statement
+
+### 🔁 What is a `switch`?
+
+A `switch` statement is a cleaner way to handle multiple `if-else` conditions that depend on a single variable's value.
+
+### 🧪 Example:
+
+Let’s use `switch` to determine the day of the week based on a number.
+
+```javascript
+let day = 3; // Let's say 1 is Monday, 2 is Tuesday, ..., 7 is Sunday
+
+switch (day) {
+  case 1:
+    console.log("Monday"); // Runs if day === 1
+    break;
+  case 2:
+    console.log("Tuesday"); // Runs if day === 2
+    break;
+  case 3:
+    console.log("Wednesday"); // Runs if day === 3
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    console.log("Invalid day"); // Runs if none of the cases match
+}
+
+```
+
+
+
 
