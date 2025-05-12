@@ -26,6 +26,7 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 17. [Practice Exercise: Student Grading System](#17-practice-exercise-student-grading-system)
 18. [Break and Continue (in for loop with if clause)](#18-break-and-continue-in-for-loop-with-if-clause)
 19. [Switch Statement](#19-switch-statement)
+20. [Variable and Block Scope](#20-variable-and-block-scope)
 
 
 
@@ -420,7 +421,35 @@ switch (day) {
 }
 
 ```
+---
 
+## 20. Variable and Block Scope
 
+### 📦 What is Scope?
+
+**Scope** determines where a variable can be accessed in your code. There are two common types:
+
+1. **Global Scope** – variables declared outside any block or function.
+2. **Block Scope** – variables declared inside a block (`{}`), like in `if`, `for`, or functions, and only accessible there.
+
+---
+
+### 🔐 Example 1: Global vs Block Scope
+
+```javascript
+let name = "Eyobed"; // global variable
+
+if (true) {
+  let age = 25; // block-scoped variable
+  console.log("Inside block:");
+  console.log(name); // ✅ accessible
+  console.log(age);  // ✅ accessible
+}
+
+console.log("Outside block:");
+console.log(name); // ✅ still accessible
+// console.log(age); // ❌ Uncaught ReferenceError: age is not defined
+
+```
 
 
