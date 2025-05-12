@@ -40,7 +40,7 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 ```javascript
 console.log("Hello, JavaScript beginner!"); // This will show the message in the console
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 2. Variables
@@ -52,7 +52,7 @@ let name = "Eyobed"; // using let
 const pi = 3.14; // using const for values that don't change
 var age = 25; // older way, not recommended now
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 3. Data Types: Number
@@ -65,7 +65,7 @@ let price = 19.99;
 
 console.log(score + price); // 119.99
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 4. Data Types: String
@@ -95,7 +95,7 @@ console.log(fullName.slice(0, 6)); // Eyobed
 console.log(fullName.substr(7, 7)); // Sebrala
 console.log(fullName.replace("Eyobed", "Eyo")); // Eyo Sebrala
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 5. Math Operators
@@ -125,7 +125,7 @@ let correct = (2 + 3) * 4; // 5 * 4 = 20
 console.log(result);
 console.log(correct);
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 7. Shorthand Operators
@@ -142,7 +142,7 @@ count /= 2; // divides by 2
 
 console.log(count); // check final value
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 8. NaN
@@ -153,7 +153,7 @@ console.log(count); // check final value
 let result = 100 / "Eyobed";
 console.log(result); // NaN
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 9. String Interpolation (Backticks)
@@ -166,7 +166,7 @@ let age = 25;
 let message = `Hello, my name is ${name} and I am ${age} years old.`;
 console.log(message);
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 10. Undefined
@@ -177,7 +177,7 @@ console.log(message);
 let test;
 console.log(test); // undefined
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 11. Null
@@ -188,7 +188,7 @@ console.log(test); // undefined
 let data = null;
 console.log(data); // null
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 12. Arrays
@@ -216,12 +216,7 @@ console.log(colors);
 
 console.log(colors.indexOf("green")); // 1
 ```
-
----
-
-Thanks for reading! You can now write and debug JavaScript like a pro beginner! 🎉
-
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 13. Boolean Data Type
@@ -236,7 +231,7 @@ console.log(typeof isOnline); // boolean
 console.log(5 > 3); // true
 console.log(10 === "10"); // false (different types)
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 14. Control Flow (Loops)
@@ -275,6 +270,8 @@ do {
 
 - `do...while` runs **at least once**, even if the condition is false.
 
+
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 15. Conditional Statements (`if`, `else`, `else if`)
@@ -292,7 +289,7 @@ if (score >= 90) {
   console.log("Keep trying!");
 }
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 16. Logical Operators
@@ -317,13 +314,8 @@ if (age < 18 || !hasTicket) {
   console.log("Entry denied.");
 }
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
-
-
----
-
-
 
 ## 17. Practice Exercise: Student Grading System
 
@@ -381,7 +373,8 @@ for (let i = 1; i <= 10; i++) {
 // 6
 // 7
 ```
-
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
+---
 ## 19. Switch Statement
 
 ### 🔁 What is a `switch`?
@@ -422,6 +415,7 @@ switch (day) {
 }
 
 ```
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 20. Variable and Block Scope
@@ -452,6 +446,7 @@ console.log(name); // ✅ still accessible
 // console.log(age); // ❌ Uncaught ReferenceError: age is not defined
 
 ```
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 21. Functions: Declaration, Expression, Arguments, and Parameters
@@ -473,6 +468,7 @@ function greet() {
 
 greet(); // Call the function
 ```
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 ## 21. Functions: Declaration, Expression, Arguments, and Parameters
@@ -537,6 +533,7 @@ add(5, 3); // 5 and 3 are arguments
 * Improve readability
 * Enable modular coding
 
+[https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md](Exercise)
 ---
 
 
