@@ -27,6 +27,7 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 18. [Break and Continue (in for loop with if clause)](#18-break-and-continue-in-for-loop-with-if-clause)
 19. [Switch Statement](#19-switch-statement)
 20. [Variable and Block Scope](#20-variable-and-block-scope)
+21. [Functions: Declaration, Expression, Arguments, and Parameters](#21-functions-declaration-expression-arguments-and-parameters)
 
 
 
@@ -451,5 +452,92 @@ console.log(name); // ✅ still accessible
 // console.log(age); // ❌ Uncaught ReferenceError: age is not defined
 
 ```
+---
+
+## 21. Functions: Declaration, Expression, Arguments, and Parameters
+
+### 🧠 What is a Function?
+
+A **function** is a reusable block of code that performs a specific task when called.
+
+---
+
+### 📝 Function Declaration
+
+This is the standard way to define a function:
+
+```javascript
+function greet() {
+  console.log("Hello, world!");
+}
+
+greet(); // Call the function
+```
+---
+
+## 21. Functions: Declaration, Expression, Arguments, and Parameters
+
+### 🧠 What is a Function?
+
+A **function** is a reusable block of code that performs a specific task when called.
+
+---
+
+### 📝 Function Declaration
+
+This is the standard way to define a function:
+
+```javascript
+function greet() {
+  console.log("Hello, world!");
+}
+
+greet(); // Call the function
+```
+
+> This type of function can be called before it's defined in the code due to **hoisting**.
+
+---
+
+### 📝 Function Expression
+
+A function assigned to a variable:
+
+```javascript
+const sayHi = function () {
+  console.log("Hi there!");
+};
+
+sayHi(); // Call the function
+```
+
+> Function expressions are **not hoisted**, so they must be defined before use.
+
+---
+
+### 🎯 Parameters vs Arguments
+
+* **Parameters** are variables listed in the function definition.
+* **Arguments** are the actual values passed when calling the function.
+
+```javascript
+function add(x, y) { // x and y are parameters
+  console.log(x + y);
+}
+
+add(5, 3); // 5 and 3 are arguments
+// Output: 8
+```
+
+---
+
+### 💡 Why Use Functions?
+
+* Reduce repetition
+* Improve readability
+* Enable modular coding
+
+---
+
 
 
