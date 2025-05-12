@@ -24,6 +24,7 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 15. [Conditional Statements](#15-conditional-statements-if-else-else-if)  
 16. [Logical Operators](#16-logical-operators)
 17. [Practice Exercise: Student Grading System](#17-practice-exercise-student-grading-system)
+18. [Break and Continue (in for loop with if clause)](#18-break-and-continue-in-for-loop-with-if-clause)
 
 
 
@@ -319,6 +320,8 @@ if (age < 18 || !hasTicket) {
 
 ---
 
+
+
 ## 17. Practice Exercise: Student Grading System
 
 Let’s put together everything we've learned to build a mini student grading system.
@@ -334,3 +337,43 @@ You are a teacher who needs to process student scores and return feedback based 
 - Use loops to process multiple students.
 - Apply string and math methods.
 - Use arrays to store student records.
+
+---
+
+## 18. Break and Continue (in for loop with if clause)
+
+### 🔄 What are `break` and `continue`?
+
+- `break` stops the loop entirely.
+- `continue` skips the current iteration and moves to the next one.
+
+### 🧪 Example:
+
+We will loop through numbers 1 to 10.
+
+- If the number is 5, we `continue` (skip it).
+- If the number is 8, we `break` (stop the loop).
+
+```javascript
+for (let i = 1; i <= 10; i++) {
+  // Skip number 5
+  if (i === 5) {
+    continue;
+  }
+
+  // Stop loop at number 8
+  if (i === 8) {
+    break;
+  }
+
+  console.log(i);
+}
+
+// Output:
+// 1
+// 2
+// 3
+// 4
+// 6
+// 7
+
