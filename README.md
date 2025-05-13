@@ -28,6 +28,9 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 19. [Switch Statement](#19-switch-statement)
 20. [Variable and Block Scope](#20-variable-and-block-scope)
 21. [Functions: Declaration, Expression, Arguments, and Parameters](#21-functions-declaration-expression-arguments-and-parameters)
+22. [Default Values in Parameters](#22-default-values-in-parameters)  
+23. [Function Return Values](#23-function-return-values)  
+24. [Arrow Function](#24-arrow-function)  
 
 
 
@@ -553,6 +556,63 @@ add(5, 3); // 5 and 3 are arguments
 [Exercise](https://github.com/eyobed7/JavaScript-Exercise/blob/main/README.md)
 
 ---
+---
+
+## 22. Default Values in Parameters
+
+In JavaScript, you can assign default values to function parameters. These values are used if no argument is passed.
+
+```javascript
+function greet(name = "Student") {
+  console.log("Hello, " + name + "!");
+}
+
+greet(); // Output: Hello, Student!
+greet("Eyobed"); // Output: Hello, Eyobed!
+```
+
+> 🧠 This helps avoid `undefined` values when arguments are missing.
+
+---
+
+## 23. Function Return Values
+
+Functions can return a value using the `return` keyword. The returned value can be stored in a variable or used directly.
+
+```javascript
+function add(x, y) {
+  return x + y;
+}
+
+let result = add(5, 3); // result is 8
+console.log(result); // Output: 8
+```
+
+> 🧠 `return` stops function execution and outputs a value.
+
+---
+
+## 24. Arrow Function
+
+Arrow functions are a shorter way to write functions. They are useful for simpler tasks.
+
+### Basic Syntax:
+```javascript
+const greet = () => {
+  console.log("Hello!");
+};
+
+greet(); // Output: Hello!
+```
+
+### With Parameters:
+```javascript
+const add = (a, b) => a + b;
+
+console.log(add(4, 6)); // Output: 10
+```
+
+> ✅ Arrow functions don't have their own `this`, which is useful in some advanced cases.
 
 
 
