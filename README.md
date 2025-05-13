@@ -559,6 +559,8 @@ add(5, 3); // 5 and 3 are arguments
 ---
 
 ## 22. Default Values in Parameters
+youtube video link from minute 12:18-13:31
+[Default Values in Parameters](https://youtu.be/xUI5Tsl2JpY?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 In JavaScript, you can assign default values to function parameters. These values are used if no argument is passed.
 
@@ -576,6 +578,8 @@ greet("Eyobed"); // Output: Hello, Eyobed!
 ---
 
 ## 23. Function Return Values
+youtube video link from minute 14:02-18:00
+[Return Values](https://youtu.be/xUI5Tsl2JpY?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 Functions can return a value using the `return` keyword. The returned value can be stored in a variable or used directly.
 
@@ -593,6 +597,8 @@ console.log(result); // Output: 8
 ---
 
 ## 24. Arrow Function
+youtube video link from minute 18:31-21:50
+[Arrow Function](https://youtu.be/xUI5Tsl2JpY?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 Arrow functions are a shorter way to write functions. They are useful for simpler tasks.
 
