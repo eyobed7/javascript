@@ -37,6 +37,9 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 ---
 ## 1. Console and `console.log()`
 
+youtube video link from minute 5:17-722
+[console](https://youtu.be/FhguwBJeqWs?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
+
 - The **console** is a tool to test and debug JavaScript.
 - `console.log()` prints messages to the browser console.
 
@@ -48,6 +51,9 @@ console.log("Hello, JavaScript beginner!"); // This will show the message in the
 ---
 
 ## 2. Variables
+
+youtube video link from minute 7:57-14:30
+[variable](https://youtu.be/FhguwBJeqWs?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 - Variables store data. Think of them like containers.
 
@@ -62,6 +68,9 @@ var age = 25; // older way, not recommended now
 
 ## 3. Data Types: Number
 
+youtube video link from minute 16:40-40:00
+[number](https://youtu.be/FhguwBJeqWs?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
+
 - Numbers can be integers or decimals.
 
 ```javascript
@@ -75,6 +84,9 @@ console.log(score + price); // 119.99
 ---
 
 ## 4. Data Types: String
+
+youtube video link from minute 20:36-36:00
+[string](https://youtu.be/FhguwBJeqWs?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 - Strings are text wrapped in quotes.
 
@@ -107,6 +119,9 @@ console.log(fullName.replace("Eyobed", "Eyo")); // Eyo Sebrala
 
 ## 5. Math Operators
 
+youtube video link from minute 37:40-40:50
+[maths](https://youtu.be/FhguwBJeqWs?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
+
 - Used for calculations: `+`, `-`, `*`, `/`, `%`, `**`
 
 ```javascript
@@ -124,6 +139,9 @@ console.log(a % b); // 1 (remainder)
 ---
 
 ## 6. Operator Precedence (BIDMAS)
+
+youtube video link from minute 40:00-41:50
+[maths](https://youtu.be/FhguwBJeqWs?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 - **BIDMAS**: Brackets, Indices, Division/Multiplication, Addition/Subtraction
 
