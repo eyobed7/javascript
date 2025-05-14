@@ -1,4 +1,6 @@
 
+[js banner](js.jpg)
+
 # JavaScript for Absolute Beginners By Eyobed 
 
 Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the outline below to navigate.
