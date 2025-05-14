@@ -32,7 +32,9 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 21. [Functions: Declaration, Expression, Arguments, and Parameters](#21-functions-declaration-expression-arguments-and-parameters)
 22. [Default Values in Parameters](#22-default-values-in-parameters)  
 23. [Function Return Values](#23-function-return-values)  
-24. [Arrow Function](#24-arrow-function)  
+24. [Arrow Function](#24-arrow-function)
+25. [DOM (Document Object Model)](#25-dom-document-object-model)
+
 
 
 
@@ -639,6 +641,149 @@ console.log(add(4, 6)); // Output: 10
 ```
 
 > ✅ Arrow functions don't have their own `this`, which is useful in some advanced cases.
+---
+
+## 25. DOM (Document Object Model)
+
+### 🧠 What is the DOM?
+
+The **DOM** is a programming interface created by the browser when an HTML page loads. It allows JavaScript to **interact with, modify, and control** elements on a web page.
+
+---
+
+### 🖱️ Interacting with a Browser Using JavaScript
+
+With JavaScript, we can:
+
+- Add or change content
+- Modify styles
+- React to user events (like clicking)
+- Create popups and animations
+
+---
+
+### 📝 Adding Content to the Browser
+
+```html
+<p id="demo">Original Text</p>
+<script>
+  document.getElementById("demo").innerText = "This text was changed with JavaScript!";
+</script>
+```
+
+---
+
+### 🎨 Changing CSS Styles
+
+```html
+<div id="box" style="width:100px; height:100px; background:red;"></div>
+<script>
+  document.getElementById("box").style.background = "blue";
+</script>
+```
+
+---
+
+### 🖱️ Reacting to User Events (Click)
+
+```html
+<button onclick="alert('You clicked me!')">Click Me</button>
+```
+
+Or using JavaScript:
+
+```html
+<button id="btn">Click Me</button>
+<script>
+  document.getElementById("btn").addEventListener("click", function() {
+    alert("Button clicked!");
+  });
+</script>
+```
+
+---
+
+### 🎉 Cool Effects (Popups)
+
+```html
+<script>
+  alert("Welcome to the page!");
+  confirm("Do you want to continue?");
+  prompt("What's your name?");
+</script>
+```
+
+---
+
+### ➕ Add or Delete Content
+
+```html
+<ul id="list">
+  <li>Item 1</li>
+</ul>
+
+<script>
+  // Add a new item
+  let li = document.createElement("li");
+  li.innerText = "Item 2";
+  document.getElementById("list").appendChild(li);
+
+  // Delete the first item
+  document.getElementById("list").removeChild(document.querySelector("li"));
+</script>
+```
+
+---
+
+### 🔍 Selecting Elements (Querying)
+
+We can reach into the DOM to select elements using:
+
+#### 🔹 `getElementById`
+```javascript
+const title = document.getElementById("main-title");
+```
+
+#### 🔹 `getElementsByClassName`
+```javascript
+const buttons = document.getElementsByClassName("btn");
+```
+
+#### 🔹 `getElementsByTagName`
+```javascript
+const allParas = document.getElementsByTagName("p");
+```
+
+#### 🔹 `querySelector` (selects the first match)
+```javascript
+const firstButton = document.querySelector(".btn");
+```
+
+#### 🔹 `querySelectorAll` (selects all matches)
+```javascript
+const allButtons = document.querySelectorAll(".btn");
+```
+
+---
+
+### 🧾 innerText and innerHTML
+
+```html
+<p id="msg">Hello</p>
+
+<script>
+  // innerText shows just the text
+  document.getElementById("msg").innerText = "Updated text!";
+
+  // innerHTML can include HTML tags
+  document.getElementById("msg").innerHTML = "<b>Bold text</b>";
+</script>
+```
+
+---
+
+> 🧠 DOM lets us make our web pages interactive, responsive, and dynamic!
+
 
 
 
