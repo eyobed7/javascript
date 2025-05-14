@@ -1,5 +1,5 @@
 
-[js banner](js.jpg)
+![js banner](js.jpg)
 
 # JavaScript for Absolute Beginners By Eyobed 
 
