@@ -782,6 +782,110 @@ const allButtons = document.querySelectorAll(".btn");
 
 ---
 
+## 2️⃣ Modifying Elements
+
+Once an element is selected, we can **change its content** or **style**.
+
+### 🔹 Change Text
+
+```javascript
+header.textContent = 'New Header Text';
+```
+
+### 🔹 Change HTML
+
+```javascript
+header.innerHTML = '<span style="color: red;">Red Header</span>';
+```
+
+### 🔹 Change CSS Style
+
+```javascript
+header.style.color = 'blue';
+header.style.fontSize = '30px';
+```
+
+---
+
+## 3️⃣ Creating and Removing Elements
+
+We can also **add new elements** or **remove existing ones**.
+
+### 🔹 Create Element
+
+```javascript
+let newDiv = document.createElement('div');
+newDiv.textContent = 'I am new!';
+document.body.appendChild(newDiv); // adds it to the bottom of the page
+```
+
+### 🔹 Remove Element
+
+```javascript
+document.body.removeChild(newDiv); // removes it from the page
+```
+
+---
+
+## 4️⃣ Responding to User Events
+
+JavaScript can **listen and respond to user actions** like clicks, typing, hovering, etc.
+
+### 🔹 Add Event Listener
+
+```javascript
+let button = document.getElementById('myButton');
+
+button.addEventListener('click', function() {
+  alert('Button clicked!');
+});
+```
+
+### 🔹 Event Handler Function
+
+```javascript
+function handleHover(event) {
+  event.target.style.backgroundColor = 'yellow';
+}
+
+let item = document.querySelector('.item');
+item.addEventListener('mouseover', handleHover);
+```
+
+---
+
+## 🎥 Video Resources
+
+### 📹 Introduction to the DOM
+
+- Watch this video to understand DOM and see how manipulation works:  
+👉 [Watch Now](https://youtu.be/wKBu_dEaF9E)
+
+### 📺 DOM Manipulation Playlist
+
+- A complete playlist to help you learn DOM by building a project:  
+👉 [Watch the Playlist](https://www.youtube.com/playlist?list=PLillGF-RfqbY2tmQtfuE1d_2Z5o8zrcz5)
+
+> 📌 **Note:** Code along the videos for better understanding!
+
+---
+
+## ✅ Summary
+
+| Task | Method |
+|------|--------|
+| Select by ID | `getElementById()` |
+| Select one element | `querySelector()` |
+| Select multiple elements | `querySelectorAll()` |
+| Create new element | `createElement()` |
+| Add element | `appendChild()` |
+| Remove element | `removeChild()` |
+| Listen to events | `addEventListener()` |
+
+---
+
+
+
 > 🧠 DOM lets us make our web pages interactive, responsive, and dynamic!
 
 
