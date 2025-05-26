@@ -34,7 +34,7 @@ Welcome to your beginner guide to JavaScript. Each "slide" is a topic. Use the o
 23. [Function Return Values](#23-function-return-values)  
 24. [Arrow Function](#24-arrow-function)
 25. [DOM (Document Object Model)](#25-dom-document-object-model)
-
+26. [Event-Handling](#26-JavaScript-Event-Handling-and-Propagation)
 
 
 
@@ -885,8 +885,179 @@ item.addEventListener('mouseover', handleHover);
 ---
 
 
+## 26. JavaScript Event Handling and Propagation
 
-> 🧠 DOM lets us make our web pages interactive, responsive, and dynamic!
+## 📌 Overview
+
+JavaScript allows us to make web pages interactive by responding to **user actions** like:
+- Clicking a button
+- Typing into a form
+- Moving the mouse
+- Submitting a form
+
+These actions are called **events**, and **event handling** is the process of writing code that reacts to them.
+
+---
+
+## ⚡ What is an Event?
+
+An **event** is any action that happens in the browser — like a click, key press, page load, or form submit.
+
+### Common HTML Events:
+
+| Event         | Description                                 |
+|---------------|---------------------------------------------|
+| `onclick`     | When an element is clicked                  |
+| `onload`      | When the page finishes loading              |
+| `onchange`    | When a form input value is changed          |
+| `oninput`     | When input is detected in a form field      |
+| `onmouseover` | When the mouse hovers over an element       |
+| `onkeydown`   | When a key is pressed                       |
+| `onsubmit`    | When a form is submitted                    |
+
+---
+
+## 🛠️ Event Handling in HTML
+
+You can use **HTML attributes** to handle events directly.
+
+### Example: Change Text on Click
+
+```html
+<h1 onclick="this.innerHTML = 'Oops!'">Click on this text!</h1>
+```
+
+### Example: Using a Function
+
+```html
+<h1 onclick="changeText(this)">Click me</h1>
+
+<script>
+  function changeText(element) {
+    element.innerHTML = "You clicked!";
+  }
+</script>
+```
+
+---
+
+## 🧼 Event Handling with JavaScript (DOM Method)
+
+Instead of using HTML attributes, we can attach events using JavaScript. This is **cleaner and more flexible**.
+
+### Example: Using `addEventListener()`
+
+```html
+<button id="myBtn">Click me</button>
+
+<script>
+  document.getElementById("myBtn").addEventListener("click", function () {
+    alert("Button clicked!");
+  });
+</script>
+```
+
+---
+
+## 🔄 `onchange` vs `oninput`
+
+### `onchange`: Triggers when the input **loses focus** and the value is changed.
+
+```html
+<input type="text" onchange="alert('Value changed!')">
+```
+
+### `oninput`: Triggers **as you type** (real-time)
+
+```html
+<input type="text" oninput="this.value = this.value.toUpperCase()">
+```
+
+---
+
+## 🌐 Page Load Events
+
+You can run JavaScript when the page loads using the `onload` event.
+
+```html
+<body onload="initPage()">
+
+<script>
+  function initPage() {
+    alert("Page loaded!");
+  }
+</script>
+```
+
+---
+
+## 🔁 Event Propagation: Bubbling vs Capturing
+
+When an event happens on an element inside another element (nested), it can be **handled in two phases**:
+
+| Phase         | Description                                                  |
+|---------------|--------------------------------------------------------------|
+| **Bubbling**  | Event starts from the **target** element and moves **upward** |
+| **Capturing** | Event starts from the **top** element and goes **downward** to the target |
+
+By default, JavaScript uses **bubbling**.
+
+### Example: Event Bubbling
+
+```html
+<div onclick="alert('Div clicked!')">
+  <button onclick="alert('Button clicked!')">Click Me</button>
+</div>
+```
+
+Clicking the button shows both alerts because the event "bubbles" up to the div.
+
+---
+
+## 🛑 Preventing Bubbling
+
+Use `event.stopPropagation()` to stop the bubbling effect:
+
+```html
+<div onclick="alert('Div clicked!')">
+  <button onclick="event.stopPropagation(); alert('Button clicked!')">Click Me</button>
+</div>
+```
+
+Now only the button alert will show.
+
+---
+
+## 🔍 Using `addEventListener()` with Capturing
+
+```html
+<script>
+  document.getElementById("myDiv").addEventListener("click", function () {
+    alert("Div clicked");
+  }, true); // true enables capturing
+</script>
+```
+
+---
+
+## ✅ Summary
+
+- **Event handlers** let you respond to user actions.
+- Use **`addEventListener()`** for a modern approach.
+- Understand **bubbling** and **capturing** to control complex interactions.
+- Use `stopPropagation()` to prevent events from bubbling up.
+
+---
+
+## 🧪 Practice Questions
+
+1. What is an event in JavaScript?
+2. How do you handle a button click using `addEventListener()`?
+3. What’s the difference between `onchange` and `oninput`?
+4. What is event bubbling and how can you stop it?
+5. Write a simple HTML page with a button that changes its text when clicked.
+
+---
 
 
 
